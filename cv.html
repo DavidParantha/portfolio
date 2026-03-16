@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | David Parantha</title>
+    <meta name="description"
+        content="View and download the curriculum vitae of David Parantha - Java Backend Developer & Data Science Enthusiast.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">DP<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="cv.html" class="active">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ph ph-list"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Resume Section -->
+        <section id="resume" class="resume section-padding inner-page">
+            <div class="container">
+                <div class="section-title">
+                    <span>Curriculum Vitae</span>
+                    <h2>My Resume</h2>
+                </div>
+
+                <div class="resume-container">
+                    <!-- Compact Preview Card -->
+                    <div class="cv-preview-card" id="open-cv-modal">
+                        <div class="cv-header">
+                            <div>
+                                <h3>David Parantha</h3>
+                                <p class="cv-tagline">Java Backend Developer &amp; Data Science Enthusiast</p>
+                            </div>
+                            <i class="ph ph-file-text cv-icon"></i>
+                        </div>
+                        <div class="cv-quick-info">
+                            <span><i class="ph ph-map-pin"></i> LPU, Phagwara</span>
+                            <span><i class="ph ph-graduation-cap"></i> B.Tech CSE</span>
+                            <span><i class="ph ph-star"></i> CGPA 6.60</span>
+                        </div>
+                        <div class="cv-preview-footer">
+                            <span class="view-btn"><i class="ph ph-arrow-square-out"></i> View Full CV</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-cta">
+                        <p>Want a copy? Download my resume.</p>
+                        <a href="cv/resume.pdf" download class="btn btn-primary">
+                            <i class="ph ph-download-simple"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Modal -->
+        <div id="cv-modal" class="modal">
+            <div class="modal-content cv-modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body cv-full">
+
+                    <!-- CV Header -->
+                    <div class="cv-full-header">
+                        <h2>David Parantha</h2>
+                        <p>Computer Science Undergraduate | Java Backend Developer | Data Science Enthusiast</p>
+                        <div class="cv-contacts">
+                            <a href="https://linkedin.com/in/david-parantha" target="_blank"><i class="ph ph-linkedin-logo"></i> linkedin.com/in/david-parantha</a>
+                            <a href="https://github.com/DavidParantha" target="_blank"><i class="ph ph-github-logo"></i> github.com/DavidParantha</a>
+                            <a href="mailto:paranthadavid26@gmail.com"><i class="ph ph-envelope"></i> paranthadavid26@gmail.com</a>
+                            <span><i class="ph ph-phone"></i> +91-9182452091</span>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title"><i class="ph ph-code"></i> Technical Skills</h3>
+                        <div class="cv-skills-grid">
+                            <div><strong>Languages:</strong> C++, Python, C, Java, DSA</div>
+                            <div><strong>Data Science:</strong> NumPy, Pandas, EDA, TensorFlow</div>
+                            <div><strong>Visualization:</strong> Matplotlib, Seaborn, Power BI, Excel</div>
+                            <div><strong>Tools/Platforms:</strong> MySQL, Git, GitHub</div>
+                            <div><strong>Soft Skills:</strong> Problem Solving, Team Player, Leadership, Adaptable</div>
+                        </div>
+                    </div>
+
+                    <!-- Projects -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title"><i class="ph ph-folder-open"></i> Projects</h3>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>AI-Powered Fake News Detection System</strong>
+                                <span class="cv-date">Sep' 25 – Nov' 24</span>
+                            </div>
+                            <ul>
+                                <li>Engineered an AI-driven fake news detection platform using NLP and ML pipelines.</li>
+                                <li>Leveraged Hugging Face Transformers for sentiment analysis and text classification.</li>
+                                <li>Architected RESTful APIs with FastAPI to deliver real-time predictions.</li>
+                            </ul>
+                            <div class="cv-tags">
+                                <span>FastAPI</span><span>React.js</span><span>NLP</span><span>Machine Learning</span>
+                            </div>
+                            <a href="https://github.com/hemantparantha/Fake-News-Full-Stack" target="_blank" class="cv-link"><i class="ph ph-github-logo"></i> View on GitHub</a>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Gardening Assistance Chatbot</strong>
+                                <span class="cv-date">Feb' 25 – Mar' 25</span>
+                            </div>
+                            <ul>
+                                <li>Designed a conversational chatbot for plant care recommendations.</li>
+                                <li>Enabled user authentication, image uploads, and live plant information from APIs.</li>
+                                <li>Integrated Google Drive API for secure storage of user-uploaded images.</li>
+                            </ul>
+                            <div class="cv-tags">
+                                <span>Python</span><span>HTML</span><span>CSS</span><span>APIs</span><span>Google Drive API</span>
+                            </div>
+                            <a href="https://github.com/DavidParantha/Gardening-Assistant-Chatbot" target="_blank" class="cv-link"><i class="ph ph-github-logo"></i> View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <!-- Certificates -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title"><i class="ph ph-certificate"></i> Certificates</h3>
+                        <div class="cv-cert-list">
+                            <div class="cv-cert-item">
+                                <span>Cloud Computing – NPTEL IIT Kharagpur</span>
+                                <span class="cv-date">Sep' 25</span>
+                                <a href="https://drive.google.com/file/d/1m5EcT7iLjdV3-oMxGTzqzDoDvmTlE_wU/view" target="_blank" class="cv-link-small">View</a>
+                            </div>
+                            <div class="cv-cert-item">
+                                <span>C++ Programming: OOPs &amp; DSA – CSE Pathshala</span>
+                                <span class="cv-date">Mar' 25</span>
+                                <a href="https://drive.google.com/file/d/1m5EcT7iLjdV3-oMxGTzqzDoDvmTlE_wU/view" target="_blank" class="cv-link-small">View</a>
+                            </div>
+                            <div class="cv-cert-item">
+                                <span>Introduction to Git and GitHub – Google</span>
+                                <span class="cv-date">Apr' 24</span>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/1TH5ZI6L09VE" target="_blank" class="cv-link-small">Verify</a>
+                            </div>
+                            <div class="cv-cert-item">
+                                <span>Intro to Hardware and Operating Systems – IBM</span>
+                                <span class="cv-date">Jul' 24</span>
+                                <a href="https://www.coursera.org/account/accomplishments/verify/ZYHV5I3T5WT5" target="_blank" class="cv-link-small">Verify</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title"><i class="ph ph-graduation-cap"></i> Education</h3>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Lovely Professional University</strong>
+                                <span class="cv-date">Aug '23 – Present</span>
+                            </div>
+                            <p>B.Tech – Computer Science &amp; Engineering | CGPA: 6.60</p>
+                        </div>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>DVC Viveka Junior College</strong>
+                                <span class="cv-date">Apr '18 – Mar '20</span>
+                            </div>
+                            <p>Intermediate | 81%</p>
+                        </div>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>ST. Ann's School</strong>
+                                <span class="cv-date">Apr '10 – Mar '20</span>
+                            </div>
+                            <p>Matriculation | 76%</p>
+                        </div>
+                    </div>
+
+                    <!-- Achievements -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title"><i class="ph ph-trophy"></i> Achievements</h3>
+                        <ul>
+                            <li>Solved 200+ problems on LeetCode, strengthening problem-solving skills in data structures, algorithms, and logical reasoning.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 David Parantha. Built with passion.</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/david-parantha" target="_blank">LinkedIn</a>
+                <a href="https://github.com/DavidParantha" target="_blank">GitHub</a>
+                <a href="#">Leetcode</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js?v=2"></script>
+    <script>
+        // Inline modal logic
+        document.addEventListener('DOMContentLoaded', function() {
+            var modal = document.getElementById('cv-modal');
+            var trigger = document.getElementById('open-cv-modal');
+            var closeBtn = document.querySelector('.close-modal');
+
+            if (trigger && modal) {
+                trigger.addEventListener('click', function() {
+                    modal.classList.add('is-open');
+                    document.body.style.overflow = 'hidden';
+                });
+            }
+            if (closeBtn && modal) {
+                closeBtn.addEventListener('click', function() {
+                    modal.classList.remove('is-open');
+                    document.body.style.overflow = 'auto';
+                });
+            }
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        modal.classList.remove('is-open');
+                        document.body.style.overflow = 'auto';
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        modal.classList.remove('is-open');
+                        document.body.style.overflow = 'auto';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
