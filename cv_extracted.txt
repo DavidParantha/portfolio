@@ -1,0 +1,59 @@
+David Parantha 
+ LinkedIn: linkedin.com/in/david-parantha Email: paranthadavid26@gmail.com 
+GitHub:    github.com/DavidParantha  Mobile: +91-9182452091  
+ SKILLS 
+ 
+• Languages: Java, Python, DSA 
+• Frontend:   HTML, CSS, JavaScript 
+• Data Science: NumPy, Pandas, EDA, Tensor Flow 
+• Visualization: Matplotlib, Seaborn, Microsoft Excel, Power BI 
+• Tools/Platforms: MySQL, Git, GitHub 
+• Soft Skills:                    Problem Solving, Communication, Teamwork, Adaptability, Time Management 
+PROJECT 
+ Weather Pulse Real-Time Weather & Air Quality Web App | GitHub Jan’ 26 – Feb’ 26 
+• Engineered a full-stack weather monitoring platform delivering real-time weather, precipitation  
+• Built a real-time weather dashboard providing forecasts and PM2.5 air quality insights  
+using public APIs. 
+• Implemented a scalable Java backend with Servlets and MVC architecture to handle geocoding,  
+data aggregation, and business logic. 
+• Designed smart alert rules to notify users of high temperature, heavy rain, and poor air quality  
+       based on user-defined thresholds. 
+• Developed a responsive, modern UI using HTML, CSS, and JSP for clean visualization of weather  
+metrics and alert notifications. 
+    Tech Stack: Java 21, Jakarta EE (Servlets), JSP, API, HTML, CSS, JavaScript 
+Car Sales Analytics Dashboard (Power BI) | GitHub     Nov’ 25 – Dec’ 25 
+• Analysed raw car sales data and transformed it into actionable business insights using Power BI.  
+• Established key KPIs including Total Sales, Average Selling Price, Total Cars Sold, and Average  
+ Cars Sold. 
+• Visualized year-wise sales trends, segmented performance by transmission type, and mapped  
+state-wise results with colour-wise distribution. 
+• Enabled interactive exploration through slicers for drill-down analysis by year and model. 
+• Leveraged data modelling and crafted DAX measures to ensure accurate, dynamic reporting. 
+• Tech Stack: Microsoft Power BI, DAX, Data Modelling, Data Visualization 
+TRAINING 
+ 
+  C++ Programming: OOPs and Data Structures | Certificate Jun’ 25 – Aug’ 25 
+• Built a solid foundation in C++ programming, covering syntax, control structures, and core 
+language features. 
+• Applied Object-Oriented Programming OOP principles including classes, inheritance, 
+polymorphism, and encapsulation to structure programs effectively. 
+• Implemented fundamental Data Structures and Algorithms DSA such as arrays, linked lists, 
+stacks, queues, and basic searching/sorting techniques. 
+Tech Stack: C++, Object-Oriented Programming, Data Structures & Algorithms. 
+CERTIFICATES 
+ 
+• Cloud Computing – NPTEL IIT Kharagpur | Link Sep’ 25 
+• Introduction to Git and GitHub – Google | Link Apr’ 24 
+• Intro to Hardware and Operating Systems – IBM | Link Jul’ 24 
+ACHIEVEMENTS 
+ 
+• Solved 200+ problems on Hacker Rank, Leetcode strengthening problem-solving skills in 
+Java, data structures, algorithms, and logical reasoning. 
+EDUCATION 
+ 
+• Lovely Professional University Phagwara, Punjab 
+Bachelor of Technology - Computer Science and Engineering; CGPA: 6.60  Aug’ 23 – Present 
+• DVC Viveka Junior College Ponnur, Andhra Pradesh 
+Intermediate; Percentage: 81% Apr’ 18 – Mar’ 20 
+• ST. Ann’s School Ponnur, Andhra Pradesh 
+Matriculation; Percentage: 76% Apr’ 10 – Mar’ 20 
