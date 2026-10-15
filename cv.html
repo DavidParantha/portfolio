@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV | David Parantha</title>
     <meta name="description"
-        content="View and download the curriculum vitae of David Parantha - Java Backend Developer & Data Science Enthusiast.">
+        content="View and download the curriculum vitae of David Parantha - Software Developer & Data Analyst.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         <!-- Resume Section -->
         <section id="resume" class="resume section-padding inner-page">
             <div class="container">
-                <div class="section-title">
+                <div class="section-title text-center">
                     <span>Curriculum Vitae</span>
                     <h2>My Resume</h2>
                 </div>
@@ -50,14 +50,14 @@
                         <div class="cv-header">
                             <div>
                                 <h3>David Parantha</h3>
-                                <p class="cv-tagline">Java Backend Developer &amp; Data Science Enthusiast</p>
+                                <p class="cv-tagline">Software Developer &amp; Data Analyst</p>
                             </div>
                             <i class="ph ph-file-text cv-icon"></i>
                         </div>
                         <div class="cv-quick-info">
                             <span><i class="ph ph-map-pin"></i> LPU, Phagwara</span>
                             <span><i class="ph ph-graduation-cap"></i> B.Tech CSE</span>
-                            <span><i class="ph ph-star"></i> CGPA 6.60</span>
+                            <span><i class="ph ph-star"></i> CGPA 6.83</span>
                         </div>
                         <div class="cv-preview-footer">
                             <span class="view-btn"><i class="ph ph-arrow-square-out"></i> View Full CV</span>
@@ -65,9 +65,9 @@
                     </div>
 
                     <div class="resume-cta">
-                        <p>Want a copy? Download my resume.</p>
+                        <p>Want a copy? Download my official resume.</p>
                         <a href="cv/resume.pdf" download class="btn btn-primary">
-                            <i class="ph ph-download-simple"></i> Download CV
+                            <i class="ph ph-download-simple"></i> Download PDF
                         </a>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                     <!-- CV Header -->
                     <div class="cv-full-header">
                         <h2>David Parantha</h2>
-                        <p>Computer Science Undergraduate | Java Backend Developer | Data Science Enthusiast</p>
+                        <p>Computer Science Undergraduate | Software Developer &amp; Data Analyst</p>
                         <div class="cv-contacts">
                             <a href="https://linkedin.com/in/david-parantha" target="_blank"><i class="ph ph-linkedin-logo"></i> linkedin.com/in/david-parantha</a>
                             <a href="https://github.com/DavidParantha" target="_blank"><i class="ph ph-github-logo"></i> github.com/DavidParantha</a>
@@ -96,11 +96,11 @@
                     <div class="cv-section">
                         <h3 class="cv-section-title"><i class="ph ph-code"></i> Technical Skills</h3>
                         <div class="cv-skills-grid">
-                            <div><strong>Languages:</strong> Java, Python, DSA, C, C++</div>
-                            <div><strong>Data Science:</strong> NumPy, Pandas, EDA, TensorFlow</div>
-                            <div><strong>Visualization:</strong> Matplotlib, Seaborn, Power BI, Microsoft Excel</div>
-                            <div><strong>Tools/Platforms:</strong> MySQL, Git, GitHub, Jakarta EE (Servlets), JSP</div>
-                            <div><strong>Soft Skills:</strong> Problem Solving, Communication, Teamwork, Adaptability, Time Management</div>
+                            <div><strong>Programming Languages:</strong> Java, Python, SQL</div>
+                            <div><strong>Backend &amp; Web Development:</strong> Spring, Servlets, HTML, CSS, JavaScript</div>
+                            <div><strong>Big Data &amp; Data Engineering:</strong> Hadoop, Spark, Hive</div>
+                            <div><strong>Data Science &amp; Analytics:</strong> NumPy, Pandas, EDA, Power BI</div>
+                            <div><strong>Tools &amp; Platforms:</strong> Git, GitHub, Microsoft Excel</div>
                         </div>
                     </div>
 
@@ -108,39 +108,60 @@
                     <div class="cv-section">
                         <h3 class="cv-section-title"><i class="ph ph-folder-open"></i> Projects</h3>
 
+                        <!-- Ace Bank Lite -->
                         <div class="cv-item">
                             <div class="cv-item-header">
-                                <strong>Weather Pulse | Real-Time Weather & Air Quality Web App</strong>
+                                <strong>Ace Bank Lite – Banking Web Application</strong>
+                                <span class="cv-date">Feb’ 26 – Mar’ 26</span>
+                            </div>
+                            <ul>
+                                <li>Developed a banking web application using Java, Servlets, JSP, and the MVC architecture.</li>
+                                <li>Implemented secure user authentication, account management, loan requests, and savings goal tracking.</li>
+                                <li>Integrated email notifications and prepared the application for Docker-based deployment.</li>
+                            </ul>
+                            <div class="cv-tags">
+                                <span>Servlets</span><span>JSP</span><span>MySQL</span><span>Maven</span><span>Docker</span><span>HTML</span><span>CSS</span>
+                            </div>
+                            <a href="https://github.com/DavidParantha" target="_blank" class="cv-link"><i class="ph ph-github-logo"></i> View on GitHub</a>
+                        </div>
+
+                        <!-- Weather Pulse -->
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Weather Pulse Real-Time Weather Web App</strong>
                                 <span class="cv-date">Jan’ 26 – Feb’ 26</span>
                             </div>
                             <ul>
-                                <li>Engineered a full-stack weather monitoring platform delivering real-time weather and PM2.5 air quality insights using public APIs.</li>
-                                <li>Implemented a scalable Java backend with Servlets and MVC architecture to handle geocoding and data aggregation.</li>
-                                <li>Designed smart alert rules and a responsive UI using HTML, CSS, and JSP for clean visualization.</li>
+                                <li>Built a responsive weather web application providing real-time updates like temperature, humidity, wind speed, and conditions based on user-input location through an interactive interface.</li>
+                                <li>Engineered backend functionality using Servlets to handle geocoding, data aggregation, and alert generation, enabling efficient processing and user-defined notifications for critical weather conditions.</li>
+                                <li>Crafted a responsive web interface using JSP, HTML, CSS, and JavaScript to visualize complex weather metrics and deliver a clean, user-friendly experience.</li>
                             </ul>
                             <div class="cv-tags">
-                                <span>Java 21</span><span>Jakarta EE</span><span>MVC</span><span>API</span><span>JSP</span>
+                                <span>Jakarta EE</span><span>JSP</span><span>APIs</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
                             </div>
                             <a href="https://github.com/DavidParantha/WeatherPulse" target="_blank" class="cv-link"><i class="ph ph-github-logo"></i> View on GitHub</a>
                         </div>
 
+                        <!-- Car Sales Analytics & Price Prediction -->
                         <div class="cv-item">
                             <div class="cv-item-header">
-                                <strong>Car Sales Analytics Dashboard (Power BI)</strong>
-                                <span class="cv-date">Nov’ 25 – Dec’ 25</span>
+                                <strong>Car Sales Analytics &amp; Price Prediction</strong>
+                                <span class="cv-date">Dec’ 25 – Jan’ 26</span>
                             </div>
                             <ul>
-                                <li>Analysed raw car sales data and transformed it into actionable business insights using Power BI and DAX measures.</li>
-                                <li>Visualized year-wise sales trends, segmented performance by transmission type, and mapped state-wise results.</li>
-                                <li>Enabled interactive exploration through slicers for drill-down analysis by year and model.</li>
+                                <li>Processed and structured raw car sales data to extract meaningful patterns and support analytical workflows.</li>
+                                <li>Designed an interactive Power BI dashboard to track revenue and pricing trends.</li>
+                                <li>Explored variations across year, fuel type, and location to uncover regional insights.</li>
+                                <li>Implemented a machine learning model to estimate vehicle prices using historical data.</li>
                             </ul>
                             <div class="cv-tags">
-                                <span>Power BI</span><span>DAX</span><span>Data Modelling</span><span>Visualization</span>
+                                <span>Power BI</span><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span>
                             </div>
                             <a href="https://github.com/DavidParantha/CAR-SALES-DASHBOARD-BI" target="_blank" class="cv-link"><i class="ph ph-github-logo"></i> View on GitHub</a>
                         </div>
                     </div>
 
+                    <!-- Training -->
                     <div class="cv-section">
                         <h3 class="cv-section-title"><i class="ph ph-student"></i> Training</h3>
                         <div class="cv-item">
@@ -148,7 +169,14 @@
                                 <strong>C++ Programming: OOPs and Data Structures</strong>
                                 <span class="cv-date">Jun’ 25 – Aug’ 25</span>
                             </div>
-                            <p>Built a solid foundation in C++ covering syntax, OOP principles (inheritance, polymorphism, encapsulation), and fundamental DSA.</p>
+                            <ul>
+                                <li>Built a solid foundation in C++ programming, covering syntax, control structures, and core language features.</li>
+                                <li>Applied Object-Oriented Programming (OOP) principles including classes, inheritance, polymorphism, and encapsulation to structure programs effectively.</li>
+                                <li>Implemented fundamental Data Structures and Algorithms (DSA) such as arrays, linked lists, stacks, queues, and basic searching/sorting techniques.</li>
+                            </ul>
+                            <div class="cv-tags">
+                                <span>C++</span><span>Object-Oriented Programming</span><span>Data Structures &amp; Algorithms</span>
+                            </div>
                         </div>
                     </div>
 
@@ -156,6 +184,10 @@
                     <div class="cv-section">
                         <h3 class="cv-section-title"><i class="ph ph-certificate"></i> Certificates</h3>
                         <div class="cv-cert-list">
+                            <div class="cv-cert-item">
+                                <span>SAP Certified - Data Analyst - SAP Analytics Cloud</span>
+                                <span class="cv-date">Sep' 26 – Sep' 27</span>
+                            </div>
                             <div class="cv-cert-item">
                                 <span>Cloud Computing – NPTEL IIT Kharagpur</span>
                                 <span class="cv-date">Sep' 25</span>
@@ -171,38 +203,39 @@
                         </div>
                     </div>
 
+                    <!-- Achievements -->
+                    <div class="cv-section">
+                        <h3 class="cv-section-title"><i class="ph ph-trophy"></i> Achievements</h3>
+                        <ul>
+                            <li>Solved 200+ problems on HackerRank and LeetCode, strengthening problem-solving skills in Java, data structures, algorithms, and logical reasoning.</li>
+                            <li>Participant, Smart India Hackathon (SIH) 2024 — contributed to problem analysis, system design discussions, and technical ideation as part of a national-level innovation competition.</li>
+                        </ul>
+                    </div>
+
                     <!-- Education -->
                     <div class="cv-section">
                         <h3 class="cv-section-title"><i class="ph ph-graduation-cap"></i> Education</h3>
                         <div class="cv-item">
                             <div class="cv-item-header">
-                                <strong>Lovely Professional University</strong>
+                                <strong>Lovely Professional University (Phagwara, Punjab)</strong>
                                 <span class="cv-date">Aug '23 – Present</span>
                             </div>
-                            <p>B.Tech – Computer Science &amp; Engineering | CGPA: 6.60</p>
+                            <p>Bachelor of Technology - Computer Science and Engineering | CGPA: 6.83</p>
                         </div>
                         <div class="cv-item">
                             <div class="cv-item-header">
-                                <strong>DVC Viveka Junior College</strong>
-                                <span class="cv-date">Apr '18 – Mar '20</span>
+                                <strong>DVC Viveka Junior College (Ponnur, Andhra Pradesh)</strong>
+                                <span class="cv-date">Apr '21 – Mar '23</span>
                             </div>
-                            <p>Intermediate | 81%</p>
+                            <p>Intermediate | Percentage: 81%</p>
                         </div>
                         <div class="cv-item">
                             <div class="cv-item-header">
-                                <strong>ST. Ann's School</strong>
-                                <span class="cv-date">Apr '10 – Mar '20</span>
+                                <strong>ST. Ann's School (Ponnur, Andhra Pradesh)</strong>
+                                <span class="cv-date">Apr '20 – Mar '21</span>
                             </div>
-                            <p>Matriculation | 76%</p>
+                            <p>Matriculation | Percentage: 76%</p>
                         </div>
-                    </div>
-
-                    <!-- Achievements -->
-                    <div class="cv-section">
-                        <h3 class="cv-section-title"><i class="ph ph-trophy"></i> Achievements</h3>
-                        <ul>
-                            <li>Solved 200+ problems on Hacker Rank and LeetCode, strengthening problem-solving skills in Java, data structures, algorithms, and logical reasoning.</li>
-                        </ul>
                     </div>
 
                 </div>
@@ -216,12 +249,12 @@
             <div class="footer-links">
                 <a href="https://linkedin.com/in/david-parantha" target="_blank">LinkedIn</a>
                 <a href="https://github.com/DavidParantha" target="_blank">GitHub</a>
-                <a href="#">Leetcode</a>
+                <a href="https://leetcode.com" target="_blank">LeetCode</a>
             </div>
         </div>
     </footer>
 
-    <script src="js/script.js?v=2"></script>
+    <script src="js/script.js?v=3"></script>
     <script>
         // Inline modal logic
         document.addEventListener('DOMContentLoaded', function() {
