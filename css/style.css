@@ -285,6 +285,41 @@ nav {
     line-height: 1.7;
 }
 
+.hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.stat-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 0.45rem 0.95rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.stat-pill:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+}
+
+.stat-pill i {
+    font-size: 1.05rem;
+    color: var(--primary);
+}
+
+.stat-pill strong {
+    color: var(--text-primary);
+}
+
 .cta-buttons {
     display: flex;
     gap: 1.25rem;
@@ -683,65 +718,143 @@ nav {
 }
 
 /* CONTACT SECTION */
-.contact-info {
+.section-subtitle {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    gap: 2.5rem;
+    align-items: start;
+}
+
+.contact-cards {
     display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin-top: 40px;
-    background: var(--bg-card);
-    padding: 2.5rem;
-    border-radius: 12px;
-    border: 1px solid var(--border);
-    box-shadow: var(--shadow-sm);
+    flex-direction: column;
+    gap: 1.25rem;
 }
 
 .contact-item {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    background: var(--bg-card);
+    padding: 1.4rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    text-align: left;
+    transition: var(--transition);
+}
+
+.contact-item:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
 .contact-item i {
     font-size: 1.8rem;
     color: var(--primary);
-    margin-bottom: 0.75rem;
+    flex-shrink: 0;
+    margin-bottom: 0;
 }
 
 .contact-item h3 {
-    font-size: 1.1rem;
-    margin-bottom: 0.35rem;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .contact-item p {
     color: var(--text-secondary);
-    font-size: 0.92rem;
+    font-size: 0.9rem;
 }
 
-.large-icons {
-    justify-content: center;
-    margin-top: 2.5rem;
+.contact-social-row {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
+    margin-top: 0.5rem;
 }
 
-.large-icons a {
-    display: flex;
+.contact-social-btn {
+    flex: 1;
+    display: inline-flex;
     align-items: center;
-    gap: 0.6rem;
-    font-size: 0.95rem;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
     font-weight: 500;
     color: var(--text-primary);
-    background: var(--bg-card);
-    padding: 0.85rem 1.75rem;
-    border-radius: 8px;
-    border: 1px solid var(--border);
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
 }
 
-.large-icons a:hover {
-    border-color: var(--border-hover);
+.contact-social-btn:hover {
     background: var(--accent-soft);
+    border-color: var(--border-hover);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+}
+
+/* CONTACT FORM CARD */
+.contact-form-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2.25rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.contact-form-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.4rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.92rem;
+    color: var(--text-primary);
+    background: #ffffff;
+    transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(45, 55, 72, 0.08);
+}
+
+@media (max-width: 850px) {
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* CV PREVIEW CARD */

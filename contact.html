@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="css/style.css?v=3">
+    <link rel="stylesheet" href="css/style.css?v=4">
 </head>
 
 <body>
@@ -40,30 +40,65 @@
             <div class="container">
                 <div class="section-title text-center">
                     <span>Reach Out</span>
-                    <h2>Contact Information</h2>
+                    <h2>Contact &amp; Collaboration</h2>
+                    <p class="section-subtitle">Have an opportunity, project, or question? Send a message directly.</p>
                 </div>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="ph ph-envelope"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:paranthadavid26@gmail.com">paranthadavid26@gmail.com</a></p>
+
+                <div class="contact-layout">
+                    <!-- Left: Direct Info Cards -->
+                    <div class="contact-cards">
+                        <div class="contact-item">
+                            <i class="ph ph-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:paranthadavid26@gmail.com">paranthadavid26@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ph ph-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><a href="tel:+919182452091">+91-9182452091</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ph ph-map-pin"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Phagwara, Punjab / Andhra Pradesh, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-social-row">
+                            <a href="https://linkedin.com/in/david-parantha" target="_blank" class="contact-social-btn">
+                                <i class="ph ph-linkedin-logo"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/DavidParantha" target="_blank" class="contact-social-btn">
+                                <i class="ph ph-github-logo"></i> GitHub
+                            </a>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="ph ph-phone"></i>
-                        <h3>Phone</h3>
-                        <p><a href="tel:+919182452091">+91-9182452091</a></p>
+
+                    <!-- Right: Quick Interactive Message Box (opens user email with pre-filled subject) -->
+                    <div class="contact-form-card">
+                        <h3>Send a Quick Message</h3>
+                        <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                            <div class="form-group">
+                                <label for="senderName">Your Name</label>
+                                <input type="text" id="senderName" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="senderSubject">Subject</label>
+                                <input type="text" id="senderSubject" required placeholder="Project Inquiry / Job Opportunity">
+                            </div>
+                            <div class="form-group">
+                                <label for="senderMessage">Message</label>
+                                <textarea id="senderMessage" rows="4" required placeholder="Hi David, I'd like to discuss..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <i class="ph ph-paper-plane-tilt"></i> Send Message
+                            </button>
+                        </form>
                     </div>
-                    <div class="contact-item">
-                        <i class="ph ph-map-pin"></i>
-                        <h3>Location</h3>
-                        <p>Phagwara, Punjab / Andhra Pradesh, India</p>
-                    </div>
-                </div>
-                <div class="large-icons">
-                    <a href="https://linkedin.com/in/david-parantha" target="_blank"><i class="ph ph-linkedin-logo"></i>
-                        LinkedIn</a>
-                    <a href="https://github.com/DavidParantha" target="_blank"><i class="ph ph-github-logo"></i>
-                        GitHub</a>
                 </div>
             </div>
         </section>
@@ -80,7 +115,17 @@
         </div>
     </footer>
 
-    <script src="js/script.js?v=3"></script>
+    <script src="js/script.js?v=4"></script>
+    <script>
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('senderName').value;
+            const subject = document.getElementById('senderSubject').value;
+            const message = document.getElementById('senderMessage').value;
+            const body = encodeURIComponent(`From: ${name}\n\n${message}`);
+            window.location.href = `mailto:paranthadavid26@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+        }
+    </script>
 </body>
 
 </html>
